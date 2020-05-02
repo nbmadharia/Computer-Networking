@@ -1,3 +1,8 @@
+/*
+A sliding window protocol of simplex stop and go in which sender sends the packet and waits for the 
+ACK (acknowledgement) of the packet. Once the ACK reaches the sender, it transmits the next packet 
+in row. If the ACK is not received, it re-transmits the previous packet again.
+*/
 #include<bits/stdc++.h>
 
 using namespace std;
